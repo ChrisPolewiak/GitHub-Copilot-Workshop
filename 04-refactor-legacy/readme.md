@@ -8,7 +8,7 @@ Use Copilot Chat (Agent Mode) to refactor legacy / messy code into clean, readab
 
 ## ✅ Task
 
-1. Open the file provided in this folder (e.g., `legacy.py`).
+1. Open the file provided in this folder (e.g., `example01.py`).
 2. Ask Copilot to explain what the code does.
 3. Ask Copilot to refactor the code into a clean, readable version.
 4. Review changes and accept if correct.

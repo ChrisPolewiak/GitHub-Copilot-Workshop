@@ -27,7 +27,7 @@ Use **Copilot Chat (Agent Mode)** to automatically generate a full `README.md` f
 ### 2. Generate README
 
 ```
-Generate a README.md that describes this project, goals of labs, structure of repository, and instructions on how to run the examples.
+Generate a README.md in root folder that describes this project, goals of labs, structure of repository, and instructions on how to run the examples.
 ```
 
 ### 3. Optional — add diagram

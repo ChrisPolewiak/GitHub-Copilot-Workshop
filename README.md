@@ -4,6 +4,11 @@ A hands-on workshop designed to teach developers how to effectively use **GitHub
 
 ---
 
+Right click to open in GitHub Codespaces:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ChrisPolewiak/GitHub-Copilot-Workshop?quickstart=1)
+
+
 ## 🎯 Workshop Goals
 
 This workshop demonstrates practical use cases for GitHub Copilot, including:

@@ -17,13 +17,17 @@ Use Copilot Chat (Agent Mode) to refactor a messy / obfuscated JavaScript functi
 
 ### 🔧 Prompts to use
 
-**1. Understand the code**
+```python
+Understand the code**
+```
 
+```python
+Clean/refactor the function**
+```
 
-**2. Clean/refactor the function**
-
-
-**3. Optional — Improve code**
+```python
+Improve code
+```
 
 
 ---

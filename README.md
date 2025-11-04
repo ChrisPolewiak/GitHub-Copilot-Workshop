@@ -67,21 +67,38 @@ GitHub-Copilot-Workshop/
 │   ├── data.csv               # Sample CSV data
 │   └── readme.md              # Lab instructions
 │
-├── 06-bicep-to-yaml/          # Generate YAML config from Bicep template
+├── 06-generate-tests/         # Auto-generate unit tests with pytest
+│   ├── function.py            # Sample function to test
+│   └── readme.md              # Lab instructions
+│
+├── 07-fix-bug-with-agent/     # Debug and fix code issues with Copilot
+│   ├── bug.py                 # Code with bugs to fix
+│   └── readme.md              # Lab instructions
+│
+├── 08-generate-docs/          # Generate documentation for Python code
+│   ├── order.py               # Sample Python code
+│   └── readme.md              # Lab instructions
+│
+├── 09-webapp-from-sql/        # Generate full CRUD web app from SQL schema
+│   ├── schema.sql             # Database schema
+│   └── readme.md              # Lab instructions
+│
+├── 11-bicep-to-yaml/          # Generate YAML config from Bicep template
 │   ├── deploy.bicep           # Azure Bicep template
 │   └── readme.md              # Lab instructions
 │
-├── 07-generate-tests/         # Auto-generate unit tests with pytest
+├── 12-powershell-to-bash/     # Convert PowerShell scripts to Bash
+│   ├── cleanup.ps1            # PowerShell script
 │   └── readme.md              # Lab instructions
 │
-├── 08-powershell-to-bash/     # Convert PowerShell scripts to Bash
+├── 13-azure-resource-audit/   # Audit Azure resources with PowerShell
+│   ├── azure_audit.ps1        # Azure audit script
 │   └── readme.md              # Lab instructions
 │
-├── 09-generate-readme/        # Generate repository documentation
-│   └── readme.md              # Lab instructions
-│
-└── 10-webapp-from-sql/        # Generate full CRUD web app from SQL schema
-    ├── schema.sql             # Database schema
+└── 14-terraform-module-generator/ # Generate Terraform modules
+    ├── main.tf                # Main Terraform config
+    ├── variables.tf           # Input variables
+    ├── outputs.tf             # Output values
     └── readme.md              # Lab instructions
 ```
 
@@ -145,34 +162,28 @@ Each lab follows a similar pattern:
 - Run: `python convert.py`
 - Check `output.json` for results
 
-#### **Lab 06 — Generate YAML from Bicep**
-
-- Open `deploy.bicep`
-- Use `/explain` to analyze parameters
-- Ask Copilot to generate `deploy.yaml` with sample values
-- Verify YAML structure matches Bicep expectations
-
-#### **Lab 07 — Generate Unit Tests**
+#### **Lab 06 — Generate Unit Tests**
 
 - Open your Python functions file
 - Ask Copilot Chat to generate pytest tests
 - Run tests: `pytest test_function.py`
 - Review coverage and edge cases
 
-#### **Lab 08 — Convert PowerShell to Bash**
+#### **Lab 07 — Fix Bugs with Copilot Agent**
 
-- Open PowerShell script
-- Use `/explain` to understand the script
-- Ask Copilot to convert to Bash with same behavior
-- Test on Linux/Mac or WSL
+- Open `bug.py` with problematic code
+- Use `/explain` to understand the issues
+- Ask Copilot to identify and fix bugs
+- Test the corrected code
 
-#### **Lab 09 — Generate README**
+#### **Lab 08 — Generate Documentation**
 
-- Use `/explain` to analyze the entire repository
-- Ask Copilot to generate comprehensive README
+- Open `order.py`
+- Use `/doc` to add comprehensive docstrings
+- Ask Copilot to generate module-level documentation
 - Review and customize as needed
 
-#### **Lab 10 — Generate Full CRUD Web App from SQL Schema**
+#### **Lab 09 — Generate Full CRUD Web App from SQL Schema**
 
 - Create a new project folder
 - Add `schema.sql` to the project
@@ -182,6 +193,34 @@ Each lab follows a similar pattern:
   - CRUD operations for Categories and Products
 - Run: `flask --app app run --debug`
 - Test all CRUD operations in the browser
+
+#### **Lab 11 — Generate YAML from Bicep**
+
+- Open `deploy.bicep`
+- Use `/explain` to analyze parameters
+- Ask Copilot to generate `deploy.yaml` with sample values
+- Verify YAML structure matches Bicep expectations
+
+#### **Lab 12 — Convert PowerShell to Bash**
+
+- Open `cleanup.ps1`
+- Use `/explain` to understand the script
+- Ask Copilot to convert to Bash with same behavior
+- Test on Linux/Mac or WSL
+
+#### **Lab 13 — Azure Resource Audit**
+
+- Open `azure_audit.ps1`
+- Use `/explain` to understand the audit logic
+- Ask Copilot to enhance or refactor the script
+- Run against Azure subscription to audit resources
+
+#### **Lab 14 — Terraform Module Generator**
+
+- Open Terraform configuration files
+- Use Copilot to generate reusable modules
+- Ask for best practices and documentation
+- Validate with `terraform validate`
 
 ---
 

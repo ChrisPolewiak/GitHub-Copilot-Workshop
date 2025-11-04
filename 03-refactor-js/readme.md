@@ -25,11 +25,6 @@ Explain the code
 Clean/refactor the function
 ```
 
-```python
-Improve code
-```
-
-
 ---
 
 ### ✅ Completion criteria

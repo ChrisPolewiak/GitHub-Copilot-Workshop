@@ -1,19 +1,61 @@
-def calculate_total_price(items, discount):
-    total = 0
-
-    for i in range(len(items)):
-        total = total + items[i]["price"] * items[i]["qty"]
-
-    if discount > 0:
-        total = total - (total * discount / 100)
-
-    return total
-
-
-items = [
-    {"price": 100, "qty": 2},
-    {"price": 50, "qty": 3},
-    {"price": 20, "qty": 1},
-]
-
-print(calculate_total_price(items, 10))
+def calcThings(x, y, mode=None, extra=None):
+    if mode == None:
+        mode = "add"
+    if mode == "add":
+        if type(x) == str:
+            try:
+                x = int(x)
+            except:
+                x = 0
+        if type(y) == str:
+            try:
+                y = int(y)
+            except:
+                y = 0
+        result = x + y
+    elif mode == "sub":
+        if type(x) == str:
+            try:
+                x = int(x)
+            except:
+                x = 0
+        if type(y) == str:
+            try:
+                y = int(y)
+            except:
+                y = 0
+        result = x - y
+    elif mode == "multi":
+        if type(x) == str:
+            try:
+                x = int(x)
+            except:
+                x = 0
+        if type(y) == str:
+            try:
+                y = int(y)
+            except:
+                y = 0
+        result = x * y
+    elif mode == "div":
+        if y == 0 or y == "0":
+            result = "Division by zero error!"
+        else:
+            try:
+                result = int(x) / int(y)
+            except:
+                result = "Bad input"
+    else:
+        result = None
+    if extra != None:
+        if mode == "add":
+            result = result + 10
+        elif mode == "sub":
+            result = result - 5
+        else:
+            result = result
+    if result == None:
+        print("Error")
+    else:
+        print("Result is: " + str(result))
+    return result

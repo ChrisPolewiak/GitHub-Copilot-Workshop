@@ -21,19 +21,19 @@ Use Copilot Chat (Agent Mode) to refactor legacy / messy code into clean, readab
 
 ### 1. Understand the code
 
-```
+```python
 /explain Explain what this code does, step by step.
 ```
 
 ### 2. Refactor and clean code
 
-```
+```python
 /fix Refactor this code to modern, clean Python. Improve naming and formatting. Do not change the logic.
 ```
 
 ### 3. Optional — add comments
 
-```
+```python
 Add comments that explain key steps of the function.
 ```
 

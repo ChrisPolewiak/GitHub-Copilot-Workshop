@@ -18,11 +18,11 @@ Use Copilot Chat (Agent Mode) to refactor a messy / obfuscated JavaScript functi
 ### 🔧 Prompts to use
 
 ```python
-Understand the code**
+Explain the code
 ```
 
 ```python
-Clean/refactor the function**
+Clean/refactor the function
 ```
 
 ```python

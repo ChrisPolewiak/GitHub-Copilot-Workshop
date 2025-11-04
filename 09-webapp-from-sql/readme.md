@@ -48,6 +48,8 @@ Requirements:
 - Use SQLite3 (built-in Python library)
 - Application structure:
 
+Create a new rootfolder - webapp and inside create:
+
 app/
   __init__.py
   models/

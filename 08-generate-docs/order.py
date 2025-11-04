@@ -99,10 +99,3 @@ class OrderService:
         body = json.dumps({"total": total, "charge_id": charge_id, "items": order["items"]}, indent=2)
         self.notifier.send(order["customer_email"], subject, body)
 
-    # (SVG removed — Copilot will generate diagrams during the workshop)
-
-    return result  # end of __main__ block("Result:", result)
-
-    out = Path("order_flow.svg")
-    service.export_flow_as_svg(out.as_posix())
-    print("Flow SVG generated:", out.resolve())

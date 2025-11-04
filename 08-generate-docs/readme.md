@@ -14,7 +14,7 @@ You will NOT write documentation manually — Copilot will.
 
 ## 📂 Files in this folder
 
-* `calculator.py` – contains working code without documentation
+* `order.py` – contains working code without documentation
 
 ---
 
@@ -22,30 +22,34 @@ You will NOT write documentation manually — Copilot will.
 
 Your goal is to turn an undocumented script into a well‑documented module.
 
-1. Open `calculator.py`
+1. Open `order.py`
 2. Ask Copilot:
 
-```
+```python
 /explain what does this code do? Add docstrings to all functions.
 ```
 
 3. Then generate a README:
 
-```
-Generate README.md for this code, including:
+```python
+Generate order_README.md for this code, including:
 - description
 - usage example
 - instructions to run
 ```
 
-4. Apply changes suggested by Copilot.
+4. Create a SVG flow diagram:
+
+```python
+Create flow diagram to SVG file
+```
 
 ---
 
 ## ✅ Success criteria
 
 * All functions in `order.py` have docstrings
-* A new `README.md` file is created by Copilot
+* A new `order_README.md` file is created by Copilot
 * README includes usage example
 
 ---

@@ -9,14 +9,9 @@ Use **Copilot Chat (Agent Mode)** to generate Python code that reads a CSV file 
 ## ✅ Task
 
 1. In this folder, you have `data.csv`.
-2. Create a new file `convert.py`.
-3. Ask Copilot to generate a script that:
+2. Ask Copilot to create file `data.json` which contains the data
 
-   * reads the CSV,
-   * converts it to JSON,
-   * saves output to a file (e.g., `output.json`).
-
-> You should not code manually — describe what you want in natural language and let Copilot generate the code.
+> You should not code manually — describe what you want in natural language and let Copilot convert data.
 
 ---
 
@@ -25,28 +20,21 @@ Use **Copilot Chat (Agent Mode)** to generate Python code that reads a CSV file 
 ### Generate script
 
 ```
-Create a Python script that reads data.csv and converts it to JSON. Save the result to output.json. Use json and csv modules.
+Convert this file into `data.json`
 ```
 
 ### Optional — pretty formatting
 
 ```
-Modify the script to format JSON with indentation = 4.
+Create additional file `data.yaml`
 ```
 
-### Optional — add CLI argument
-
-```
-Add support for input/output file paths passed as command-line arguments.
-```
 
 ---
 
 ## ✅ Success criteria
 
 * Script reads CSV and saves JSON.
-* You generated code using prompts (no manual coding).
-* Script runs without errors.
 
 ---
 

@@ -12,11 +12,21 @@ Use **Copilot Chat (Agent Mode)** to:
 
 ### 🔧 Prompts to use
 
-**1. Explain the function**
+```python
+/explain
+```
 
+```python
+Add docstring + comments**
+```
 
-**2. Add docstring + comments**
+```python
+Create example01.md file with documentation for first function
+```
 
+```python
+Create example01.md file with documentation for second function
+```
 
 ---
 

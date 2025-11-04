@@ -7,7 +7,7 @@ Generate Python functions **only from comments**, without writing code manually.
 
 ## ✅ Task
 
-1. Create a new Python file (e.g., `01-create-fn.py`).
+1. Create a new Python file (e.g., `main.py`).
 2. Add comment(s) describing the function(s).
 3. Press Enter → accept Copilot’s suggestion with **Tab**.
 4. Run the script to verify the output.
@@ -19,13 +19,19 @@ Generate Python functions **only from comments**, without writing code manually.
 ## ✏️ Example comments (Copilot will generate the functions)
 
 ```python
-# Create a function that receives a list of numbers and returns the average value.
+# Create a function "average" that receives a list of numbers and returns the average value.
+```
 
+```python
 # Create a function that takes a list of words and returns only the words longer than 5 characters.
+```
 
-# Create a function that receives a temperature in Celsius and returns it converted to Fahrenheit.
+```python
+# Create a function "celsius_to_fahrenheit" that receives a temperature in Celsius and returns it converted to Fahrenheit.
+```
 
-# Create a function that receives a list of numbers and returns the highest value. Ignore negative numbers.
+```python
+# Create a function "max_positive_value" that receives a list of numbers and returns the highest value. Ignore negative numbers.
 ```
 
 Test the output
